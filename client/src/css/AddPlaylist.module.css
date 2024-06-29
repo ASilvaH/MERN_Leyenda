@@ -1,0 +1,69 @@
+/* AddPlaylist.module.css */
+
+.formContainer {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .songList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .songItem {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .songItem input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .songItem label {
+    margin: 0;
+  }
+  
+  .createButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
